@@ -1,0 +1,264 @@
+/*@font-face {
+    font-family: 'blisscapsregular';
+    src: url('../fonts/blisscapsregular-webfont.eot');
+    src: url('../fonts/blisscapsregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blisscapsregular-webfont.woff') format('woff'),
+         url('../fonts/blisscapsregular-webfont.ttf') format('truetype'),
+         url('../fonts/blisscapsregular-webfont.svg#blisscapsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    /*background-color: green;*/
+}
+
+/* A TAG STYLING */
+
+a { text-decoration: none; color: inherit; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+/* ==========================================================================
+   my styles global
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) { /*ipad*/ 
+/* iPads (landscape) ----------- */
+
+    /*
+    .content{
+        width: 700px;
+    }
+    */
+
+    /* HOME */
+
+    
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) { /*ipad*/ 
+/* iPads (portrait) ----------- */
+
+    /*
+    .content{
+        width: 650px;
+    }
+    */
+
+    /* HOME */
+
+    
+
+}
+
+
+@media only screen and (max-width : 480px) { /*smartphones*/ 
+/* Smartphones (portrait) ----------- */
+
+    /*
+    .content{
+        width: 290px;
+    }
+    */
+
+    
+
+}
+
+/* ==========================================================================
+   IE MESSAGE
+   ========================================================================== */
+
+.ie-message{
+    display:none;
+    text-align:center;
+}
+
+.lt-ie8 .wrapper{
+    display:none;
+}
+
+.lt-ie8 .copyright{
+    display:none;
+}
+
+.lt-ie8 .info{
+    display:none;
+}
+
+.lt-ie8 .ie-message{
+    display:block;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

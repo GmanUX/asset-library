@@ -1,0 +1,24 @@
+/* ==========================================================================
+   IE MESSAGE
+   ========================================================================== */
+
+.ie-message{
+    display:none;
+    text-align:center;
+}
+
+.lt-ie8 .wrapper{
+    display:none;
+}
+
+.lt-ie8 .copyright{
+    display:none;
+}
+
+.lt-ie8 .info{
+    display:none;
+}
+
+.lt-ie8 .ie-message{
+    display:block;
+}
