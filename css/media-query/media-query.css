@@ -1,100 +1,66 @@
-/* iPad mini (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
+/* ipad landscape */
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        background-color: blue;
+    }
 }
 
-/* iPad 2 (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
+/* ipad portrait */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        background-color: lightblue;
+    }
 }
 
-/* iPad 2 (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+/* iphone 6+ landscape */
+@media screen and (max-width: 736px) {
+    .wrapper {
+        background-color: purple;
+    }
 
+    .span2{
+    	width: 100%;
+    }
 }
 
-/* iPad 2 (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
-
+/* iphone 6 landscape */
+@media screen and (max-width: 667px) {
+    .wrapper {
+        background-color: lavender;
+    }
 }
 
-/* iPad 3 (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
-/* Styles */
-
+/* iphone 6 landscape */
+@media screen and (max-width: 667px) {
+    .wrapper {
+        background-color: lavender;
+    }
 }
 
-/* iPad 3 (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
-
+/* Samsung Galaxy */
+@media screen and (max-width: 640px) {
+    .wrapper {
+        background-color: cyan;
+    }
 }
 
-/* iPhone 4 (landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
-
+/* iphone 5 */
+@media screen and (max-width: 568px) {
+    .wrapper {
+        background-color: magenta;
+    }
 }
 
-/* iPhone 4 (portrait) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
-
+/* iphone 4 */
+@media screen and (max-width: 480px) {
+    .wrapper {
+        background-color: gold;
+    }
 }
 
-/* iPhone 5 (landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 5 (portrait) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 6 (landscape) ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 6 (portrait) ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 6+ (landscape) ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 6+ (portrait) ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* Samsung Galaxy S3 (landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* Samsung Galaxy S3 (portrait) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* Samsung Galaxy S4 (landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-/* Samsung Galaxy S4 (portrait) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-/* Samsung Galaxy S5 (landscape) ----------- */
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-/* Samsung Galaxy S5 (portrait) ----------- */
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-
+/* mobile portrait */
+@media screen and (max-width: 320px) {
+    .wrapper {
+        background-color: silver;
+    }
 }

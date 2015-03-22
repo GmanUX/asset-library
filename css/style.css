@@ -21,6 +21,7 @@ html, button, input, select, textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    margin: 0 auto;
     /*background-color: green;*/
 }
 
@@ -38,8 +39,56 @@ a:hover, a:active { text-decoration: none; }
    ========================================================================== */
 
 .wrapper{
-    max-width: 1180px;
-    margin: 0 20px;
+    max-width: 1140px;
+    overflow: hidden;
+    margin: 0 10px;
     padding: 20px;
     background-color: yellow;
 }
+
+.row{
+    width: 100%;
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+.column{
+    background-color: #eee;
+    float: left;
+}
+
+.last{
+    margin-right: 0px !important;
+}
+
+.span2{
+    width: 49.122807017543857%; /* 560 / 1140 */;
+    margin: 0  1.7543859649122806% 0 0; /* 20 / 1140 */ 
+}
+
+.span3{
+    width:  32.15789473684211%; /* 366.6 / 1140 */
+    margin: 0  1.7543859649122806% 0 0; /* 20 / 1140 */
+}
+
+.span4{
+    width:  23.684210526315788%; /* 270 / 1140 */
+    margin: 0  1.7543859649122806% 0 0; /* 20 / 1140 */
+}
+
+.span5{
+    width: 18.596491228070175%; /* 212 / 1140 */
+    margin: 0 1.7543859649122806% 0 0; /* 20 / 1140 */
+}
+
+.span6{
+    width: 15.201754385964913%; /* 173.3 / 1140 */
+    margin: 0 1.7543859649122806% 0 0; /* 20 / 1140 */
+}
+
+
+
+
+
+
+
